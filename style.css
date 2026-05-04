@@ -1,42 +1,46 @@
 *{
-    background-color:goldenrod
+    background-color:rgb(197, 165, 238)
 ;
-            padding: 10px 30px;
+            padding: 5px 10px;
             border-radius: 8px;
-            color: #212121;
+        color: #050000;
             text-decoration: none;
-            border: 2px solid #212121;
-
+             
+            border: 2px;
+  
 
 }
-.canvas{
-    background-color:pink;
-    width: 400px;
-    height: 400px;
-    margin: 50px auto;
-    border-radius: 8px;
-}
-    
+
 .h1{
     text-align: center;
-    color: rgb(140, 194, 140);
+    
+    justify-content: center;
+    color: rgb(243, 214, 176);
+    
+    
 }
 
 .h2{
     text-align: center;
     color: rgb(234, 150, 234);
+     display: -ms-inline-flexbox;
 }
-.button{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    inline-size: 10px;
+
+  .button {
+  
+  margin-bottom: px;
+    display: -ms-inline-flexbox;
+    border-style: solid;
+    width:80px;
+    margin-inline: 15px;
+    align-items: center;
+    height:90px;
     cursor: pointer;
 }
 
 #grey {
   background-color: grey;
+  margin-left: 80px;
   
 }
 
@@ -48,8 +52,10 @@
 #blue {
   background-color: blue;
   
+  
 }
 #yellow {
   background-color: yellow;
+  
   
 }
